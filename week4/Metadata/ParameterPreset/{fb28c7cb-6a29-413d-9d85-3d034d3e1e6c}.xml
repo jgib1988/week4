@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{fb28c7cb-6a29-413d-9d85-3d034d3e1e6c}">
+		<property name="name">
+			<value>Radio</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a03d04f0-0127-434b-8faf-aaf9550b7ef4}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{550e93a1-90ac-4594-8315-79f0f5b26fa0}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{550e93a1-90ac-4594-8315-79f0f5b26fa0}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="isReadOnly">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>50</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{63832315-814b-4df8-8bd7-5d43bf5fd21e}</destination>
+		</relationship>
+	</object>
+	<object class="LFOModulator" id="{63832315-814b-4df8-8bd7-5d43bf5fd21e}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="shape">
+			<value>6</value>
+		</property>
+		<property name="rate">
+			<value>0.119999997</value>
+		</property>
+		<property name="depth">
+			<value>100</value>
+		</property>
+	</object>
+</objects>

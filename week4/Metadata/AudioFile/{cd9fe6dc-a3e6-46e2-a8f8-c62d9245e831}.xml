@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{cd9fe6dc-a3e6-46e2-a8f8-c62d9245e831}">
+		<property name="assetPath">
+			<value>cavestep5.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.10127083333333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7b8013bd-3f39-4873-b1c2-d3542f050d3c}</destination>
+		</relationship>
+	</object>
+</objects>

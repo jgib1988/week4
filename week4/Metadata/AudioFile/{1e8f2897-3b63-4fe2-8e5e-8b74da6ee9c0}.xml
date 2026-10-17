@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{1e8f2897-3b63-4fe2-8e5e-8b74da6ee9c0}">
+		<property name="assetPath">
+			<value>grassstep3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.24106250000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7b8013bd-3f39-4873-b1c2-d3542f050d3c}</destination>
+		</relationship>
+	</object>
+</objects>

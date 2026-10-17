@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5e129849-5d40-47fb-9c9c-3dc1db946761}">
+		<property name="assetPath">
+			<value>320231__kukensius__by-a-small-fire.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>32.147958333333335</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7b8013bd-3f39-4873-b1c2-d3542f050d3c}</destination>
+		</relationship>
+	</object>
+</objects>

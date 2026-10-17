@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{485f3ce9-c46d-437f-a483-0da7cc51f399}">
+		<property name="name">
+			<value>FloorType</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a03d04f0-0127-434b-8faf-aaf9550b7ef4}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{8b3e82dc-5c6b-4427-9a61-f204a5e61e3b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{8b3e82dc-5c6b-4427-9a61-f204a5e61e3b}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
